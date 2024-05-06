@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Frukost\" />
+    <Folder Include="Heim\" />
+    <Folder Include="Basseng\" />
+    <Folder Include="InnOgUtsjekk\" />
+    <Folder Include="Kontakt\" />
+    <Folder Include="Treningsrom\" />
+  </ItemGroup>
+
+</Project>
